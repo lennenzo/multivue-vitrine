@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "headers": [{"source": "/downloads/(.*)", "headers": [
+    {"key": "Content-Type", "value": "application/octet-stream"},
+    {"key": "Cache-Control", "value": "public, max-age=31536000, immutable"}
+  ]}]
+}
